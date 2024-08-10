@@ -8,13 +8,12 @@
         public string language = "ru";
         public bool promptDone;
 
-        public int money = 1;   
-        public string newPlayerName = "Hello!";
-        public bool[] openLevels = new bool[3];
+        public bool[] openLevels = new bool[2];
+        public int Currentlevel;
 
         public SavesYG()
         {
-            openLevels[1] = true;
+            openLevels[0] = true;
         }
     }
 }
